@@ -12,7 +12,7 @@
 Subswap is a permissionless decentralized value exchange protocol which focuses in laying the foundation of the next interoperable cryptoeconomic activities 🚢.
 - Fair distribution mechanism of SUB governance tokens that enable community control & evolution of the procotol 
 - Experiments in AMM models including Proactive Market Making & Single-Sided Liquidity (DODO), low slippage and fees for stable assets (Curve/Blackholeswap) & Multi-asset pools (Balancer)
-- A governable treasury to further support stability "
+- A governable treasury to further support stability 
 
 ## Trying it out
 
