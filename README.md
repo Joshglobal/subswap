@@ -10,6 +10,10 @@
 
 
 Subswap is a permissionless decentralized value exchange protocol which focuses in laying the foundation of the next interoperable cryptoeconomic activities 🚢.
+- Fair distribution mechanism of SUB governance tokens that enable community control & evolution of the procotol 
+- Experiments in AMM models including Proactive Market Making & Single-Sided Liquidity (DODO), low slippage and fees for stable assets (Curve/Blackholeswap) & Multi-asset pools (Balancer)
+- A governable treasury to further support stability 
+
 
 ## Trying it out
 
@@ -29,28 +33,33 @@ Create values with [asset module](./frame/asset/lib.rs)'s `issue` function. User
 
 ### Exchange values
 
-Create pairs between two assets to exchange. Liquidity providers are rewarded as liquidity provider tokens(a.k.a lp token), and users can claim their rewards by burning it or stake to pools to get SUNI, the base currency of subswap protocol. Pairs are developed to create the least impermanent loss 
+Create pairs between two assets to exchange. Liquidity providers are rewarded as liquidity provider tokens(a.k.a lp token), and users can claim their rewards by burning it or stake to pools to get 
+, the base currency of subswap protocol. Pairs are developed to create the least impermanent loss 
 
 ### Yield farming
 
-SUNI is the native currency of Subswap network, and it is not distributed easily. SUNI is for liquidity providers and degens who creates cryptocurrency ecosystem. To reward providing liquidity. SUNI pools are created to stake lptokens and get SUNI. 
+SUB is the native currency of Subswap network, and it is not distributed easily. SUB is for liquidity providers and degens who creates cryptocurrency ecosystem. To reward providing liquidity. SUB pools are created to stake lptokens and get SUB. The SUB token is intended to have NO value.  There will be NO pre-mine and NO developer fund.  We will accomplish this in 3 phases:
+
+1: Chainlink Hackathon test net
+2: Mainnet incentivization for Live Substrate Networks (Polkadot ($DOT), Kusama ($KSM), Centrifuge ($RAD), Darwinia Crab ($RING & $KTON), Edgeware ($EDG), Kulupu ($KLP), Nodle Main ($NODL), Plasm ($PLM), Stafi ($FIS), Subsocial ($?). 
+3: Open farming - incentive new pools creators 
 
 ### Democracy
 *For the liquidity providers, By the liquidity providers, of the liquidity providers* 
 
-SUNI is used to determine the future of Subswap protocol. SUNI council and holders will usually determine:
+SUB is used to determine the future of Subswap protocol. SUB council and holders will usually determine:
 - To issue cryto asset with proven utility
 - To set up exchanges between one asset to the another
-- Set reward rate of SUNI pools
+- Set reward rate of SUB pools
 - Add new features (e.g. synthetic assets, derivatives, insurance)
 
 ### Treasury
 
-SUNI funds can be made to reward open source developers who bridge other heteregeneous crypto assets and Subswap protocol assets. 
+SUB funds can be made to reward open source developers who bridge other heteregeneous crypto assets and Subswap protocol assets. 
 
 ### Contract
 
-To provide utility to tokens registered in the subswap protocol, developers can setup business logic with [ink!]() to interact with SUNI and other registered tokens. 
+To provide utility to tokens registered in the subswap protocol, developers can setup business logic with [ink!]() to interact with SUB and other registered tokens. 
 
 ## Documentation
 
